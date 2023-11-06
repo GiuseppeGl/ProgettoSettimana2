@@ -161,3 +161,28 @@ const numericArray = [
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
+
+let arr1 = [];
+let letters = "";
+for( let i = 0;i < charactersArray.length;i++){
+  letters = charactersArray[i];
+  switch(letters){
+    case "g":
+      arr1.push(7);
+      break;
+    case "n":
+      arr1.push(12);
+      break;
+    case "u":
+      arr1.push(19);
+      break;
+    case "z":
+      arr1.push(21);
+      break;
+    case "d" :
+    arr1.push(4);
+    break;
+}
+}
+
+console.log(arr1)
