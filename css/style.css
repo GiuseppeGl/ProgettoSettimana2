@@ -15,12 +15,41 @@ section:first-child {
     
 }
 
+section {
+    margin: 20px 0 20px 0;
+}
+
+h1 {
+    padding-top: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+#ph1 {
+
+text-align: center;
+color: white;
+font-size: 0.7rem;
+font-weight: bold;
+padding: 10px 0 10px 0;
+
+}
+
+
 article {
     width: auto;
 }
 
 h4 {
     color: white;
+}
+
+#holiday {
+    background-image: url(../img/bg-image.png);
+    
 }
 
 .navmenu {
